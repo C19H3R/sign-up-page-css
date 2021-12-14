@@ -1,0 +1,193 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+   --page-bg-clr: #eceef1;
+   --header-btn-clr: #0077c5;
+   background-color: var(--page-bg-clr);
+}
+/* #region header */
+header {
+   display: flex;
+   justify-content: flex-end;
+   padding: 12px 32px;
+}
+header > div {
+   display: flex;
+   flex-direction: column;
+   padding: 0 12px;
+   gap: 6px;
+}
+header > div > span {
+   font-size: 12px;
+   color: rgb(95, 95, 95);
+}
+header > div > a {
+   font-size: 12px;
+   color: #0077c5;
+}
+header > button {
+   background-color: var(--header-btn-clr);
+   padding: 0 24px;
+   border: 1px solid black;
+   border-radius: 4px;
+   color: white;
+   font-size: 16px;
+}
+/* #endregion */
+
+.signup-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 16px;
+}
+.signup-section > ul {
+   padding: 0;
+}
+.signup-section > ul > li {
+   display: inline-block;
+}
+.signup-section > ul > li > span {
+   font-size: 10px;
+   font-size: large;
+   color: gray;
+   margin-left: 5px;
+   margin-right: 5px;
+   vertical-align: middle;
+}
+.signup-form {
+   display: flex;
+   flex-direction: column;
+   width: 380px;
+   align-items: center;
+   background-color: white;
+   border: 1px solid rgb(199, 199, 199);
+   padding: 24px 24px 0 24px;
+}
+.signup-form > span:first-of-type {
+   font-size: 20px;
+}
+.signup-form > p:first-of-type {
+   width: 80%;
+   text-align: center;
+   font-size: 12px;
+   color: gray;
+}
+.signup-form > p:first-of-type > a {
+   color: #0077c5;
+}
+.signup-form > form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 24px;
+}
+.signup-form > form > label,
+.signup-form > form > label > input {
+   width: 100%;
+}
+.signup-form > form > label > input {
+   margin: 5px 0 5px 0;
+   border: 1px solid rgb(209, 209, 209);
+   font-size: 18px;
+}
+.signup-form > form > label > span:first-of-type {
+   color: black;
+}
+.signup-form > form > label > span:nth-last-child(1) {
+   font-size: 12px;
+   color: gray;
+}
+.signup-form > form > button {
+   background-color: var(--header-btn-clr);
+   color: white;
+   width: 100%;
+   height: 48px;
+   border-radius: 5px;
+   border: 0;
+   font-size: 16px;
+}
+.signup-form > form > label > span > span {
+   font-size: 14px;
+   color: gray;
+}
+
+.signup-form > p {
+   text-align: center;
+   font-size: 12px;
+   font-style: italic;
+   color: gray;
+}
+.signup-form > p > a {
+   color: blue;
+}
+
+.signup-footer {
+   background-color: rgb(221, 221, 221);
+   margin-top: 0;
+   padding: 0;
+   width: 380px;
+   padding: 10px 24px;
+   color: gray;
+   font-size: 12px;
+   text-align: center;
+}
+.signup-footer a {
+   color: rgb(90, 90, 235);
+}
+.section-footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 600px;
+   text-align: center;
+   font-size: 12px;
+   color: gray;
+}
+.section-footer > ul {
+   display: flex;
+   padding: 0;
+   gap: 20px;
+}
+footer {
+   background-color: white;
+   padding: 24px;
+}
+
+.section-footer > ul > li {
+   display: inline-block;
+}
+
+.lock-icon {
+   background: url(./assets/svg/lock.svg) no-repeat;
+   display: inline-block;
+   background-size: contain;
+   height: 16px;
+   width: 16px;
+}
+.mint-icon {
+   background: url(./assets/svg/mint.svg) no-repeat;
+   display: inline-block;
+   background-size: contain;
+   height: 24px;
+   width: 24px;
+}
+.quickbooks-icon {
+   background: url(./assets/svg/quickbooks.svg) no-repeat;
+   display: inline-block;
+   background-size: contain;
+   height: 24px;
+   width: 24px;
+}
+.turbotax-icon {
+   background: url(./assets/svg/turbotax.svg) no-repeat;
+   display: inline-block;
+   background-size: contain;
+   height: 24px;
+   width: 24px;
+}
+.company-logo {
+   height: 96px;
+}
